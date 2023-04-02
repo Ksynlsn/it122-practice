@@ -1,0 +1,61 @@
+Import required modules − We use the require directive to load Node.js modules.
+
+Create server − 
+    A server which will listen to client's requests similar to Apache HTTP Server.
+
+Read request and return response − 
+    The server created in an earlier step will read the HTTP request made by the 
+    client which can be a browser or a console and return the response.
+
+REPL stands for Read Eval Print Loop and it represents a computer environment 
+like a Windows console or Unix/Linux shell where a command is entered and the 
+system responds with an output in an interactive mode. Node.js or Node comes bundled 
+with a REPL environment. It performs the following tasks −
+
+Read − Reads user's input, parses the input into JavaScript data-structure, and stores in memory.
+
+Eval − Takes and evaluates the data structure.
+
+Print − Prints the result.
+
+Loop − Loops the above command until the user presses ctrl-c twice.
+
+REPL Commands
+ctrl + c − terminate the current command.
+
+ctrl + c twice − terminate the Node REPL.
+
+ctrl + d − terminate the Node REPL.
+
+Up/Down Keys − see command history and modify previous commands.
+
+tab Keys − list of current commands.
+
+.help − list of all commands.
+
+.break − exit from multiline expression.
+
+.clear − exit from multiline expression.
+
+.save filename − save the current Node REPL session to a file.
+
+.load filename − load file content in current Node REPL session.
+
+Stopping REPL
+As mentioned above, you will need to use ctrl-c twice to come out of Node.js REPL.
+
+$ node
+>
+(^C again to quit)
+>
+
+Installing Modules using NPM
+There is a simple syntax to install any Node.js module −
+
+$ npm install <Module Name>
+
+# SET FUND TO FALSE
+7 packages are looking for funding
+  run `npm fund` for details
+kc@Kacies-MacBook-Pro it122-practice % npm config set fund false
+
